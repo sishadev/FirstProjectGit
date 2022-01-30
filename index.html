@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Treino de Form Validation Client Side</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend><abbr title="Os campos a seguir é mandatorio">Faça Login:</abbr></legend>
+        <label for="user">Usuário:</label>
+        <input type="text" name="user" id="user" required>
+        <br>
+        <label for="password">Nova senha:</label>
+        <input type="password" id="password" name="password" minlength="8" maxlength="16" required>
+        <button>Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
